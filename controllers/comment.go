@@ -8,8 +8,6 @@ import (
 
 //添加评论
 type AddCommentController struct {
-	//beego.Controller
-	//BaseLoginController
 	BaseController
 }
 
@@ -55,8 +53,6 @@ func (this *AddCommentController) Post() {
 
 //修改
 type EditCommentController struct {
-	//beego.Controller
-	//BaseLoginController
 	BaseController
 }
 
