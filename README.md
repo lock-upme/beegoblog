@@ -1,9 +1,5 @@
-#Php pictureColor class
+#Beego Blog
 
-#用法
-	$obj = new pictureColor();
-	
-	echo $obj->colorName('E:\project\lumen\public\t.jpg');
-	
-	echo $obj->hexName('E:\project\lumen\public\t.jpg');
+#介绍
+	这是一个轻便的Blog，里博客，相册，登录~
 

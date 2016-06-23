@@ -1,12 +1,12 @@
 package main
 
 import (
-	_ "blog/routers"
+	_ "github.com/lock-upme/beegoblog/routers"
 
-	_ "blog/initial"
-	"fmt"
 	"html/template"
 	"net/http"
+
+	_ "github.com/lock-upme/beegoblog/initial"
 
 	"github.com/astaxie/beego"
 )
@@ -21,6 +21,5 @@ func page_not_found(rw http.ResponseWriter, r *http.Request) {
 
 	data := make(map[string]interface{})
 	data["content"] = "page not found"
-	fmt.Println(data)
 	t.Execute(rw, data)
 }

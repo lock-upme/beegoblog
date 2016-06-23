@@ -1,9 +1,10 @@
 package controllers
 
 import (
-	. "blog/models"
 	"fmt"
 	"strings"
+
+	. "github.com/lock-upme/beegoblog/models"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/utils/pagination"

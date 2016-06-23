@@ -3,8 +3,9 @@ package controllers
 import (
 	//"fmt"
 
-	"blog/utils"
 	"io"
+
+	"github.com/lock-upme/beegoblog/utils"
 	//"net/http"
 	"os"
 	"strconv"

@@ -1,8 +1,9 @@
 package controllers
 
 import (
-	. "blog/models"
 	"time"
+
+	. "github.com/lock-upme/beegoblog/models"
 )
 
 //添加评论

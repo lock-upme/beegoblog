@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	. "blog/models"
+	. "github.com/lock-upme/beegoblog/models"
 	//"strconv"
 
 	//"github.com/astaxie/beego"

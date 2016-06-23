@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"blog/controllers"
+	"github.com/lock-upme/beegoblog/controllers"
 
 	"github.com/astaxie/beego"
 )
