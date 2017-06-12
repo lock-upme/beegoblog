@@ -56,7 +56,8 @@ func (this *UploadController) Post() {
 	}
 	//生成新的文件名
 	filename := h.Filename
-	ext := utils.SubString(filename, strings.LastIndex(filename, "."), 5)
+	//ext := utils.SubString(filename, strings.LastIndex(filename, "."), 5)
+	ext := path.Ext(filename)
 	filename = utils.GetGuid() + ext
 
 	if err != nil {
@@ -113,7 +114,8 @@ func (this *UploadMultiController) Post() {
 		filename := files[i].Filename
 		resfilename += utils.GetFileSuffix(filename) + "||"
 
-		ext := utils.SubString(filename, strings.LastIndex(filename, "."), 5)
+		//ext := utils.SubString(filename, strings.LastIndex(filename, "."), 5)
+		ext := path.Ext(filename)
 		filename = utils.GetGuid() + ext
 		dst, err := os.Create(dir + "/" + filename)
 
