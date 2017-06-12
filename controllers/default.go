@@ -4,7 +4,7 @@ import (
 	//"fmt"
 
 	"io"
-
+        "path"
 	"github.com/lock-upme/beegoblog/utils"
 	//"net/http"
 	"os"
